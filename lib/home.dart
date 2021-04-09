@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text("Cookie cut"),
+          title: Text("PaySpace"),
         ),
         body: SafeArea(
             child: SingleChildScrollView(
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
                     Container(
                       height: 1000,
                       child:
-                        WebViewContainer('https://www.cookiecut.co.za'))
+                        WebViewContainer('https://www.payspace.com'))
                   ],
                 )
             )

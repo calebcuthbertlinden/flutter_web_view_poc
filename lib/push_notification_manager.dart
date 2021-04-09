@@ -21,8 +21,6 @@ class PushNotificationsManager {
       // Handle notification message
       final dynamic notification = message['notification'];
     }
-
-    // Or do other work.
   }
 
   Future<void> init() async {
